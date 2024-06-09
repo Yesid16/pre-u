@@ -1,0 +1,96 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://tse2.mm.bing.net/th?id=OIP.j0l4PhB4t2G9MXEzzf_GyAHaEK&pid=Api&P=0&h=180');
+            position: fixed;
+        }
+        .grand{
+            position: fixed;
+            background-color: #e6e6faac; /* Moradito clarito */
+            height: 100%;
+            width: 100%;
+            color: #4b0082; /* Morado oscuro */
+            text-align: center;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            background-color: #ffffff; /* Blanco */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        .question {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+        .options li {
+            margin: 5px 0;
+        }
+        .options button {
+            background-color: #d8bfd8; /* Moradito clarito */
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .options button:hover {
+            background-color: #dda0dd; /* Moradito intermedio */
+            color: #fff;
+        }
+        .message {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        #finalMessage {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://i.pinimg.com/originals/df/76/e9/df76e97e11b50179192d6db8ea8b92f3.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+            display: flex;
+            font-size: 100px;
+            box-sizing: border-box;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .cont {
+            background-color: rgba(108, 37, 84, 0.4); /* Fondo semitransparente morado oscuro */
+            width: 100%;
+            height: 100%;
+        }
+        .iniciar{
+            background-color: #d782ff; /* Moradito clarito */
+            position: fixed;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 30%;
+            color: #ffffff;
+            margin-bottom: 40px;
+        }
+        .iniciar:hover{
+            background-color: #dda0dd; /* Moradito intermedio */
+            color: #fff;
+            transform: translateY(-4px);
+        }
+        
